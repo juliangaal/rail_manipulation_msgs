@@ -9,6 +9,7 @@ find_package(catkin REQUIRED COMPONENTS
   geometry_msgs
   message_generation
   sensor_msgs
+  visualization_msgs
 )
 
 ################################################
@@ -32,6 +33,7 @@ generate_messages(DEPENDENCIES
   actionlib_msgs
   geometry_msgs
   sensor_msgs
+  visualization_msgs
 )
 
 ###################################################
@@ -42,5 +44,5 @@ generate_messages(DEPENDENCIES
 ## CATKIN_DEPENDS: catkin_packages dependent projects also need
 ## DEPENDS: system dependencies of this project that dependent projects also need
 catkin_package(
-  CATKIN_DEPENDS actionlib_msgs geometry_msgs sensor_msgs
+  CATKIN_DEPENDS actionlib_msgs geometry_msgs sensor_msgs visualization_msgs
 )
