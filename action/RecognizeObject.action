@@ -1,0 +1,8 @@
+# Define the goal
+rail_manipulation_msgs/SegmentedObject object   #unrecognized object
+---
+# Define the result
+rail_manipulation_msgs/SegmentedObject object   #object with recognized fields filled in (if recognized)
+---
+# Define a feedback message
+string message  # The current state message
