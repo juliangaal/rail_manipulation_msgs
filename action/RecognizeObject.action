@@ -1,9 +1,9 @@
 # Define the goal
-rail_manipulation_msgs/SegmentedObject object   #unrecognized object
-string name                                     #optional name of the object used to narrow down model candidates
+SegmentedObject object  # Unrecognized object
+string name             # Optional name of the object used to narrow down model candidates
 ---
 # Define the result
-rail_manipulation_msgs/SegmentedObject object   #object with recognized fields filled in (if recognized)
+SegmentedObject object  # Object with recognized fields filled in if recognized
 ---
 # Define a feedback message
-string message  # The current state message
+string message          # The current state message
