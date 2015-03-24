@@ -1,5 +1,6 @@
 # Define the goal
 rail_manipulation_msgs/SegmentedObject object   #unrecognized object
+string name                                     #optional name of the object used to narrow down model candidates
 ---
 # Define the result
 rail_manipulation_msgs/SegmentedObject object   #object with recognized fields filled in (if recognized)
