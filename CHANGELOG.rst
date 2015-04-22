@@ -2,6 +2,17 @@
 Changelog for package rail_manipulation_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.0.6 (2015-04-22)
+------------------
+* cleared flag added
+* Contributors: Russell Toris
+
+0.0.5 (2015-04-14)
+------------------
+* changelog updated
+* Added center to segmented object message
+* Contributors: David Kent, Russell Toris
+
 0.0.4 (2015-04-10)
 ------------------
 * bounding box info added
