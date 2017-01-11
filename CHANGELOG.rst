@@ -2,8 +2,8 @@
 Changelog for package rail_manipulation_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+0.0.9 (2017-01-11)
+------------------
 * Added optional flag for attaching object collision model after pickup
 * Updated Cartesian Path service to use stamped poses
 * Primitive action for simple Cartesian actions
