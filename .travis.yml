@@ -31,7 +31,11 @@ script:
   - ln -s $TRAVIS_BUILD_DIR $CATKIN_WS_SRC
   - cd $CATKIN_WS_SRC
   - catkin_init_workspace
+  - sudo apt-get install python-catkin-pkg
+  - which python
+  - python -V
   - echo $PYTHONPATH
+  - dpkg -L python-catkin-pkg
   - cd $CATKIN_WS
   - catkin_make
   - catkin_make install
