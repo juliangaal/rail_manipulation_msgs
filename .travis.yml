@@ -32,6 +32,7 @@ script:
   - cd $CATKIN_WS_SRC
   - catkin_init_workspace
   - pip install catkin-pkg
+  - pip install empy
   - which python
   - python -V
   - echo $PYTHONPATH
