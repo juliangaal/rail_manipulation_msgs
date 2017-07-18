@@ -31,7 +31,7 @@ script:
   - ln -s $TRAVIS_BUILD_DIR $CATKIN_WS_SRC
   - cd $CATKIN_WS_SRC
   - catkin_init_workspace
-  - pip install python-catkin-pkg
+  - pip install catkin-pkg
   - which python
   - python -V
   - echo $PYTHONPATH
