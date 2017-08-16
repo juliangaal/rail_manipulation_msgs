@@ -20,6 +20,7 @@ find_package(catkin REQUIRED COMPONENTS
 add_message_files(FILES
   Grasp.msg
   GraspingState.msg
+  GraspFeedback.msg
   SegmentedObject.msg
   SegmentedObjectList.msg
 )
@@ -28,7 +29,9 @@ add_message_files(FILES
 add_service_files(FILES
   CallIK.srv
   CartesianPath.srv
+  PairwiseRank.srv
   PrepareGrasp.srv
+  SuggestGrasps.srv
 )
 
 
@@ -40,6 +43,7 @@ add_action_files(FILES
   MoveToJointPose.action
   MoveToPose.action
   Pickup.action
+  Primitive.action
   RecognizeObject.action
   Store.action
   VerifyGrasp.action
