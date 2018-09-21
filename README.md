@@ -9,3 +9,6 @@ rail_manipulation_msgs is released with a BSD license. For full terms and condit
 
 ### Authors
 See the [AUTHORS](AUTHORS.md) file for a full list of contributors.
+
+## Note on branches:
+This is the branch for indigo development, and will soon be renamed as we re-organize while migrating packages to melodic.
